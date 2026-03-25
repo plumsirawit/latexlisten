@@ -1,7 +1,7 @@
 import socket
 import argparse
 from pathlib import Path
-
+# TEST 5
 def ping(args):
     client = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
     client.connect("/tmp/latexlisten.sock")

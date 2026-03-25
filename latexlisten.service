@@ -2,7 +2,7 @@
 Description=LaTeXListen Daemon
 
 [Service]
-ExecStart=python3 /home/sirawit/latexlisten/daemon.py
+ExecStart=<uv> run --directory <latexlisten> daemon.py
 Restart=always
 RestartSec=5
 
